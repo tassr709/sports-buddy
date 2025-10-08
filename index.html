@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sports Buddy</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <h1>Sports Buddy</h1>
+  <form id="eventForm">
+    <input type="text" id="eventName" placeholder="Event Name" required>
+    <input type="text" id="eventLocation" placeholder="Location" required>
+    <input type="datetime-local" id="eventTime" required>
+    <input type="text" id="eventCategory" placeholder="Category" required>
+    <button type="submit">Add Event</button>
+  </form>
+  <div id="eventsList"></div>
+  <script type="module" src="scripts/app.js"></script>
+</body>
+</html>
